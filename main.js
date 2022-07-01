@@ -1,0 +1,2 @@
+/* Aca deberia de ir la parte de las plantillas pero no me acurdo 
+como se hace xd */

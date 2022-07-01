@@ -1,0 +1,43 @@
+/* Este css sirve para los estilos por lo que mas quieran no toquen 
+lo que ya esta aqui*/
+
+/*Esto sirve para la galeria de imagenes */
+.carousel-inner{
+    max-height: 39rem !important;
+}
+
+/* resolucion en caso de celulares xd */
+
+
+@media (max-width: 768px){
+
+    #intro, #equipo {
+        width: 98% !important;
+    }
+}
+
+@media (max-width: 576 ){
+    .icon-wrap{
+        flex-wrap: wrap ;
+        justify-content: center !important;
+    }
+}
+
+/* Esta parte sirve para el footer */
+
+footer{
+    background: #42467D;
+    min-height: 100px;
+
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos {
+    font-size: 26px;
+    padding: 0 8px;
+    color: beige;
+}
