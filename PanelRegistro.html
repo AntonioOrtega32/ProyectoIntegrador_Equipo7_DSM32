@@ -33,29 +33,33 @@
                         <div class="text-center">
                             <h1 class="h4 text-gray-900 mb-3">Crea una cuenta!</h1>
                         </div>
-                        <form class="user">
+                        <form action="salmon.php" method="post" class="user">
                             <div class="form-group row">
                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input type="text" class="form-control form-control-user" id="exampleFirstName"
+
+                                                                                  <!-- ↓aca esta la variable ApellidoP↓-->
+                                    <input type="text" class="form-control form-control-user" name="ApellidoP"
                                         placeholder="Apellido paterno">
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                                                                   <!-- ↓aca esta la variable ApellidoM↓-->
+                                    <input type="text" class="form-control form-control-user" name="ApellidoM"
                                         placeholder="Apellido materno">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                                                                      <!-- ↓aca esta la variable correo-->
+                                <input type="email" class="form-control form-control-user" name="correo"
                                     placeholder="Correo electronico">
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input type="password" class="form-control form-control-user"
+                                                   <!-- ↓aca esta la passwd↓-->
+                                    <input type="password" name="passwd"
                                         id="exampleInputPassword" placeholder="Contraseña">
                                 </div>
-                                <div class="col-sm-6">
-                                    <input type="password" class="form-control form-control-user"
-                                        id="exampleRepeatPassword" placeholder="Repita su contraseña">
+                                <div class="col-sm-6">                                         <!-- ↓aca esta la variable passwr↓-->
+                                    <input type="password" class="form-control form-control-user" name="paswsr" placeholder="Repita su contraseña">
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
@@ -63,6 +67,7 @@
                                 Registrarse
                             </a>
                             </div>
+                            </form>
                             <hr>
                             <div class="d-flex justify-content-center d-grid gap-2 col-6 mx-auto">
                             <a href="index.html" class="btn btn-google btn-user btn-block">
